@@ -14,7 +14,9 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
                 <div class="container-fluid">
                   <div class="logo">
-                    <a class="navbar-brand" href="index.html">LOGO</a>
+                    <a class="navbar-brand" href="index.html">
+                      <img src="assets/logopata.JPG" alt="logo" width="80" height="alto">
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -25,21 +27,21 @@
                         <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">NOSOTROS</a>
+                        <a class="nav-link" href="nosotros.html">NOSOTROS</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           ADOPTA
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">GALERIA DE FOTOS</a></li>
+                          <li><a class="dropdown-item" href="galeria.html">GALERIA DE FOTOS</a></li>
                           <li><a class="dropdown-item" href="formulario.html">FORMULARIO DE ADOPCION</a></li>
                         </ul>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">¡SUMATE!</a>
+                        <a class="nav-link active" aria-current="page" href="sumate.html">¡SUMATE!</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">DONACIONES</a>
+                        <a class="nav-link active" aria-current="page" href="donaciones.html">DONACIONES</a>
                       </li>
                   </div>
                 </div>
@@ -51,16 +53,18 @@
         <div class="col-10 offset-1">
           <h1>FORMULARIO DE PRE-ADOPCION</h1>
           <div class="pt-4">
-            <button type="button" class="btn btn-danger">IMPORTANTE</button>
+            <div class="importante">
+              <button type="button" class="btn btn-danger">IMPORTANTE</button>
+            </div>
           </div>
-          <div class="pt-4 pb-4">
+          <div class="pt-4 pb-4 btn btn-danger">
           <h6>Nuestro proceso de adopción tiene dos pasos sin excepción: el primero es completar el formulario, que en caso de ser seleccionado, te lleva al segundo: una entrevista vía videollamada con la familia para conocerlos, contarles más sobre nuestro rescatadx y así tomar la decisión final respecto a la adopción. <br>
             Algunas preguntas pueden parecer con más o menos sentido, pero recordá que nosotras necesitamos tener la mayor seguridad posible sobre quien vaya a ser el adoptante de alguno de nuestros pequeños! <h6>
             </div>
-          <div class="datos del rescatado">
+          <div id="datos del rescatado" class="pt-10">
             <h4>NOMBRE DE NUESTRO RESCATADO</h4>
             <div class="row">
-              <div class="col pt-4">
+              <div class="col pt-8">
                 <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
               </div>
           </div>
@@ -244,16 +248,16 @@
         </div>
       </div>
 
-  <footer class="footer mt-auto py bg-ligth padding-top: 20px;" >
-    <div id="redes" class="row no-gutters container-md mx-auto">
-      <div class=" col-3 offset-1 align-items-center">
-        <img src="assets/facebook.png" class="rounded" alt="facebook" width="50" height="auto">
-        <img src="assets/twitter.jpg" class="rounded" alt="twitter" width="50"height="auto">
-        <img src="assets/instagram.jpg" class="rounded" alt="instagram" width="50" height="auto">
-        <img src="assets/wtsp.png" class="rounded" alt="wtsp" width="50" height="auto">
+  <footer>
+    <div id="redes" class="col-md-12 ppt-4 pb-4 mb-0 container-fluid text-center">
+      <div class="imagenes redes">
+        <img src="assets/facebook.png" class="rounded" alt="facebook" width="25" height="auto">
+        <img src="assets/twitter.jpg" class="rounded" alt="twitter" width="25" height="auto">
+        <img src="assets/instagram.jpg" class="rounded" alt="instagram" width="25" height="auto">
+        <img src="assets/wtsp.png" class="rounded" alt="wtsp" width="25" height="auto"> 
       </div>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
   </body>
 </html>
